@@ -1,4 +1,4 @@
-package com.ll.example.batchpractice;
+package com.ll.exam.batchpractice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

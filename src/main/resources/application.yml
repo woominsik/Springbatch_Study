@@ -13,4 +13,4 @@ spring:
     show-sql: true
 logging:
   level:
-    com.ll.example.batchpractice: debug
+    com.ll.exam.batchpractice: debug

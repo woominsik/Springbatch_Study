@@ -1,4 +1,4 @@
-package com.ll.example.batchpractice.job.withParam;
+package com.ll.exam.batchpractice.job.withParam;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

@@ -1,4 +1,4 @@
-package com.ll.example.batchpractice;
+package com.ll.exam.batchpractice;
 
 import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
 import org.springframework.boot.SpringApplication;
