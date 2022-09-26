@@ -11,3 +11,6 @@ spring:
     password: race1020
   jpa:
     show-sql: true
+logging:
+  level:
+    com.ll.example.batchpractice: debug
