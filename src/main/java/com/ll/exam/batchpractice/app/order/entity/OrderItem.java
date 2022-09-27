@@ -29,8 +29,16 @@ public class OrderItem extends BaseEntity {
 
     private int quantity;
 
+    // 가격
+    private int price; // 권장
+    private int salePrice; // 실제
+    private int wholesalePrice; // 도매가
+
     public OrderItem(ProductOption productOption, int quantity) {
         this.productOption = productOption;
         this.quantity = quantity;
+        this.price = productOption.getPrice();
+        this.salePrice = productOption.getSalePrice();
+        this.wholesalePrice = productOption.getWholesalePrice();
     }
 }
